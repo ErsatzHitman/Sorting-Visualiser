@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <label for="speedSlider">Animation Speed: <span id="speedValue">100</span> ms</label>
+    <input type="range" id="speedSlider" min="1" max="200" step="1" value="100" oninput="updateSpeedValue()">
+  </div>
+  
+  <div>
+    <label for="sizeSlider">Array Size: <span id="sizeValue">10</span></label>
+    <input type="range" id="sizeSlider" min="10" max="50" step="1" value="10" oninput="updateSizeValue()">
+  </div>
+
+  <div id="container"></div>
+  <button onclick="initializeArray()">Initialize</button>
+  <button onclick="mergeSort()">Merge Sort</button>
+  <button onclick="quickSort()">Quick Sort</button>
+  <button onclick="bubbleSort()">Bubble Sort</button>
+  <script src="script.js"></script>
+</body>
+</html>
