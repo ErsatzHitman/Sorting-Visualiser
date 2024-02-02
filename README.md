@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the Sorting Visualizer! This interactive web application allows you to visually experience three popular sorting algorithms—Merge Sort, Quick Sort, and Bubble Sort. You can dynamically adjust the array size, customize the animation speed, and watch the algorithms in action.
+Welcome to the Sorting Visualizer! This interactive web application allows you to visually experience popular sorting algorithms—Merge Sort, Quick Sort, Bubble Sort, Insertion Sort and Selection Sort. You can dynamically adjust the array size, customize the animation speed, and watch the algorithms in action.
 
 ## Features
 
@@ -16,9 +16,9 @@ Welcome to the Sorting Visualizer! This interactive web application allows you t
 
 ## Usage
 
-1. **Initialize Array:** Click the "Initialize" button to create a new random array based on the chosen size.
-2. **Adjust Animation Speed:** Use the slider labeled "Animation Speed" to control how quickly the sorting algorithms visualize the process. The speed ranges from 1ms to 200ms.
-3. **Change Array Size:** Use the slider labeled "Array Size" to dynamically change the number of elements in the array. The size ranges from 10 to 50.
+1. **Initialize Array:** Click the "Make Array" button to create a new random array based on the chosen size.
+2. **Adjust Animation Speed:** Use the slider labeled "Speed" to control how quickly the sorting algorithms visualize the process. 
+3. **Change Array Size:** Use the slider labeled "Size" to dynamically change the number of elements in the array.
 4. **Sorting Algorithms:**
    - Click "Merge Sort" to observe the merge sort algorithm.
    - Click "Quick Sort" to experience the quick sort algorithm.
