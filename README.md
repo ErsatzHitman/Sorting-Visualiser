@@ -11,6 +11,8 @@ Welcome to the Sorting Visualizer! This interactive web application allows you t
   - **Merge Sort:** Demonstrates the divide-and-conquer approach by recursively dividing and merging the array.
   - **Quick Sort:** Illustrates the partitioning and sorting process of the quick sort algorithm.
   - **Bubble Sort:** Shows the iterative comparison and swapping of adjacent elements in the array.
+  - **Insertion Sort:** Builds the sorted array incrementally through iterative element insertions.
+  - **Selection Sort:** Repeatedly selects the minimum element, swapping it to the sorted section, gradually sorting the array.
 
 ## Usage
 
@@ -21,6 +23,8 @@ Welcome to the Sorting Visualizer! This interactive web application allows you t
    - Click "Merge Sort" to observe the merge sort algorithm.
    - Click "Quick Sort" to experience the quick sort algorithm.
    - Click "Bubble Sort" to visualize the bubble sort algorithm.
+   - Click "Selection Sort" to visualize the bubble sort algorithm.
+   - Click "Insertion Sort" to visualize the bubble sort algorithm.
 
 ## How it Works
 
