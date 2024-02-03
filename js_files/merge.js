@@ -1,4 +1,4 @@
-//let delay = 30;
+
 async function merge(ele, low, mid, high){
     console.log('In merge()');
     console.log(`low=${low}, mid=${mid}, high=${high}`);
